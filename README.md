@@ -252,24 +252,18 @@ scoring para clasificacion automatica de reclamaciones en:
 
 ![Pregunta 5](https://github.com/user-attachments/assets/b08fea36-5a1b-443e-bafa-fca3470ef354)
 
-## Hallazgos:
-
-- Los vehículos tipo Sport presentan mayor tasa de fraude temporal.
-
-- Las categorías Utility presentan menor riesgo.
-
-- El IRT combinado con categoría es un predictor robusto.
-
-# 📊 Conclusiones Generales
-
-- El dataset está altamente desbalanceado (94% no fraude vs 6% fraude).
-
-- Las variables temporales sí muestran patrones significativos.
-
-- Los modelos futuros deben incluir mes, día, y diferencia entre fechas.
-
-- Se identificaron 5 reglas temporales claras que funcionan como alertas tempranas.
-
-- El IRT es un buen punto de partida para integrar en un modelo de ML o motor de reglas.
 
 
+## 📊 Conclusiones:
+
+- El análisis temporal permitió identificar patrones claros asociados al fraude, mostrando que ciertos días,secuencias y tiempos inesperados elevansignificativamente el riesgo.
+- El IRT sintetiza estas dimensiones temporales ydistingue con precisión los casos más sospechosos,permitiendo separar reclamos de bajo riesgo deaquellos que requieren 
+  revisión inmediata.
+- Integrar variables temporales con características delsiniestro y del vehículo mejora la detección temprana sinnecesidad de modelos complejos.
+- 
+## Recomendaciones:
+
+- Usar el IRT para priorizar los reclamos conmayor riesgo.
+- Automatizar la revisión de casos de bajoriesgo.
+- Reforzar la investigación en reclamos conpatrones temporales sospechosos.
+- Capacitar al equipo en detección tempranabasada en tiempos y secuencias.Mantener un monitoreo continuo de lospatrones temporales para ajustar estrategias.
