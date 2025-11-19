@@ -140,9 +140,9 @@ Los datos revelan un patron estacional de fraude:
 
 ## **Implicacion de Negocio:**
 
-Este patron NO puede ser coincidencia. Sugiere comportamiento deliberado
-y planificado. Se recomienda reforzar controles en el primer semestre
-del año, especialmente en marzo-mayo.
+  Este patron no puede ser coincidencia. Sugiere comportamiento deliberado 
+  y planificado. Se recomienda reforzar controles en el primer semestre
+  del año, especialmente en marzo-mayo. 
 ------------
 ------------
 
