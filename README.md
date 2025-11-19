@@ -149,7 +149,6 @@ Los datos revelan un patron estacional de fraude:
 # 🧠 PREGUNTA 2:
 
 ## PREGUNTA 2: ¿Hay días de la semana con mayor proporción de casos fraudulentos?
-##Se examinan:
 
 ![Pregunta 2](https://github.com/user-attachments/assets/70506557-d6ef-4425-b5bb-ea17a981398f)
 
@@ -182,9 +181,8 @@ y reclamaciones de los martes.
 # 🧠 PREGUNTA 3:
 ## PREGUNTA 3: ¿Cuál es la diferencia temporal entre el accidente y la reclamación en casos de fraude?
 
-
-**Inter![Pregunta 3](https://github.com/user-attachments/assets/c8485855-263e-4901-b911-db8e26fc5ac5)
-pretacion:**
+![Pregunta 3](https://github.com/user-attachments/assets/c8485855-263e-4901-b911-db8e26fc5ac5)
+**Interpretacion:**
 
 Los datos revelan un patron CONTRAINTUITIVO sobre la velocidad de reclamacion:
 
@@ -246,13 +244,11 @@ scoring para clasificacion automatica de reclamaciones en:
 - Verde (Bajo): Procesamiento automatico
 - Amarillo (Medio): Validacion estandar
 - Rojo (Alto/Muy Alto): Investigacion profunda prioritaria
-- 
+  
 # 🧠 PREGUNTA 5:
 ## PREGUNTA 5: ¿El tipo de vehículo también influye en el IRT?
 
 ![Pregunta 5](https://github.com/user-attachments/assets/b08fea36-5a1b-443e-bafa-fca3470ef354)
-
-
 
 ## 📊 Conclusiones:
 
