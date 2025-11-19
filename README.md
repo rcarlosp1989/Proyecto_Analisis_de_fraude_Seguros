@@ -260,8 +260,8 @@ scoring para clasificacion automatica de reclamaciones en:
 - El IRT sintetiza estas dimensiones temporales ydistingue con precisión los casos más sospechosos,permitiendo separar reclamos de bajo riesgo deaquellos que requieren 
   revisión inmediata.
 - Integrar variables temporales con características delsiniestro y del vehículo mejora la detección temprana sinnecesidad de modelos complejos.
-- 
-## Recomendaciones:
+  
+##   Recomendaciones:
 
 - Usar el IRT para priorizar los reclamos conmayor riesgo.
 - Automatizar la revisión de casos de bajoriesgo.
