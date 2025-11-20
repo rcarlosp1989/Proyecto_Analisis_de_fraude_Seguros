@@ -250,7 +250,7 @@ scoring para clasificacion automatica de reclamaciones en:
 
 ![Pregunta 5](https://github.com/user-attachments/assets/b08fea36-5a1b-443e-bafa-fca3470ef354)
 
-## **TOP 5 COMBINACIONES MAS RIESGOSAS (Vehiculo + IRT)**
+## **Top 5 combinaciones más riesgosas (Vehículo + IRT)**
 
 | VehicleCategory | Risk_Category | Fraud_Count | Total | Fraud_Rate_Pct |
 |-----------------|---------------|-------------|--------|-----------------|
@@ -260,7 +260,7 @@ scoring para clasificacion automatica de reclamaciones en:
 | Utility         | Alto          | 2           | 18     | 11.111111       |
 | Sedan           | Medio         | 108         | 1032   | 10.465116       |
 
-## **TOP 5 COMBINACIONES MAS SEGURAS (Vehiculo + IRT)**
+## **Top 5 combinaciones más seguras (Vehículo + IRT)**
 
 | VehicleCategory | Risk_Category | Fraud_Count | Total | Fraud_Rate_Pct |
 |-----------------|---------------|-------------|--------|-----------------|
@@ -270,13 +270,14 @@ scoring para clasificacion automatica de reclamaciones en:
 | Sedan           | Bajo          | 21          | 1032   | 2.034884        |
 | Sport           | Medio         | 15          | 591    | 2.538071        |
 
-## **EST CHI-CUADRADO: INDEPENDENCIA VEHICULO vs IRT**
+## **Est chi-cuadrado: Independencia vehículo vs irt
+**
 
 - Chi-cuadrado: 20.3703
 - p-value: 0.002379
 - Grados de libertad: 6
 
-## CONCLUSION: 
+## Conclusion: 
  - Hay RELACION significativa entre tipo de vehiculo e IRT
   (p < 0.05, rechazamos hipotesis de independencia)
 
