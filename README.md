@@ -270,22 +270,24 @@ scoring para clasificacion automatica de reclamaciones en:
 | Sedan           | Bajo          | 21          | 1032   | 2.034884        |
 | Sport           | Medio         | 15          | 591    | 2.538071        |
 
+## **EST CHI-CUADRADO: INDEPENDENCIA VEHICULO vs IRT**
+
+- Chi-cuadrado: 20.3703
+- p-value: 0.002379
+- Grados de libertad: 6
+
 ## CONCLUSION: 
  - Hay RELACION significativa entre tipo de vehiculo e IRT
   (p < 0.05, rechazamos hipotesis de independencia)
 
-## 📊 Conclusiones:
+## 📊 Conclusiones Generales:
 
 - El análisis temporal permitió identificar patrones claros asociados al fraude, mostrando que ciertos días,secuencias y tiempos inesperados elevansignificativamente el riesgo.
 - El IRT sintetiza estas dimensiones temporales ydistingue con precisión los casos más sospechosos,permitiendo separar reclamos de bajo riesgo deaquellos que requieren 
   revisión inmediata.
 - Integrar variables temporales con características delsiniestro y del vehículo mejora la detección temprana sinnecesidad de modelos complejos.
 
-## **EST CHI-CUADRADO: INDEPENDENCIA VEHICULO vs IRT**
 
-- Chi-cuadrado: 20.3703
-- p-value: 0.002379
-- Grados de libertad: 6
   
 ##   Recomendaciones:
 
