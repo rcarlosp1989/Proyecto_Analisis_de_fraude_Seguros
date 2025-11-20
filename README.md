@@ -250,12 +250,42 @@ scoring para clasificacion automatica de reclamaciones en:
 
 ![Pregunta 5](https://github.com/user-attachments/assets/b08fea36-5a1b-443e-bafa-fca3470ef354)
 
+## **TOP 5 COMBINACIONES MAS RIESGOSAS (Vehiculo + IRT)**
+
+| VehicleCategory | Risk_Category | Fraud_Count | Total | Fraud_Rate_Pct |
+|-----------------|---------------|-------------|--------|-----------------|
+| Sedan           | Muy Alto      | 36          | 157    | 22.929936       |
+| Sedan           | Alto          | 88          | 528    | 16.666667       |
+| Utility         | Medio         | 6           | 45     | 13.333333       |
+| Utility         | Alto          | 2           | 18     | 11.111111       |
+| Sedan           | Medio         | 108         | 1032   | 10.465116       |
+
+## **TOP 5 COMBINACIONES MAS SEGURAS (Vehiculo + IRT)**
+
+| VehicleCategory | Risk_Category | Fraud_Count | Total | Fraud_Rate_Pct |
+|-----------------|---------------|-------------|--------|-----------------|
+| Sport           | Bajo          | 0           | 633    | 0.000000        |
+| Utility         | Muy Alto      | 0           | 3      | 0.000000        |
+| Utility         | Bajo          | 1           | 55     | 1.818182        |
+| Sedan           | Bajo          | 21          | 1032   | 2.034884        |
+| Sport           | Medio         | 15          | 591    | 2.538071        |
+
+## CONCLUSION: 
+ - Hay RELACION significativa entre tipo de vehiculo e IRT
+  (p < 0.05, rechazamos hipotesis de independencia)
+
 ## 📊 Conclusiones:
 
 - El análisis temporal permitió identificar patrones claros asociados al fraude, mostrando que ciertos días,secuencias y tiempos inesperados elevansignificativamente el riesgo.
 - El IRT sintetiza estas dimensiones temporales ydistingue con precisión los casos más sospechosos,permitiendo separar reclamos de bajo riesgo deaquellos que requieren 
   revisión inmediata.
 - Integrar variables temporales con características delsiniestro y del vehículo mejora la detección temprana sinnecesidad de modelos complejos.
+
+## **EST CHI-CUADRADO: INDEPENDENCIA VEHICULO vs IRT**
+
+- Chi-cuadrado: 20.3703
+- p-value: 0.002379
+- Grados de libertad: 6
   
 ##   Recomendaciones:
 
