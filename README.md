@@ -270,8 +270,7 @@ scoring para clasificacion automatica de reclamaciones en:
 | Sedan           | Bajo          | 21          | 1032   | 2.034884        |
 | Sport           | Medio         | 15          | 591    | 2.538071        |
 
-## **Est chi-cuadrado: Independencia vehículo vs irt
-**
+## **Est chi-cuadrado: Independencia vehículo vs IRT**
 
 - Chi-cuadrado: 20.3703
 - p-value: 0.002379
